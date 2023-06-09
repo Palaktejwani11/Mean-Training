@@ -19,6 +19,21 @@ router.get("/delete/:id",(req,res)=>{
     MyModel.deleteMany({"_id":req.params.id}).then();
     res.send("<a href=/users> show all </a>");
 })
+router.get("/update/:id",(req,res)=>{
+    MyModel.find({"_id":req.params.id}).then(function(data){
+        res.render("update",{"data":data});
+    })
+    
+})
+
+
+router.post("/update",(req,res)=>{
+    MyModel.updateMany({"_id":req.body._id},req.body).then(function(data){
+        res.redirect("/users");
+    })
+   
+})
+
 
 
 module.exports=router;
