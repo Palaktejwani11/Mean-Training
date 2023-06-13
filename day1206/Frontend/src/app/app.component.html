@@ -1,0 +1,14 @@
+hello {{b.enroll}}
+{{b.name}}
+<div *ngIf="c">
+  Acropolis
+</div>
+CHOOSE CITY<br>
+<select> 
+  <option *ngFor="let city of cities">
+     {{city}}</option>
+</select>
+<ol>
+<li *ngFor="let city of cities">{{city}}</li>
+</ol>
+<input type="button" value="click" (click)="xyz()">

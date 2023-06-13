@@ -1,0 +1,24 @@
+npm i @angular/cli -g
+check version (ng v)-> error aaegi(copy paste kro google p)
+run commands: set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+Get-ExecutionPolicy
+Get-ExecutionPolicy -list 
+ng new myapp
+cd myapp
+ng serve
+http://localhost:4200
+type script to java script translation command:type script se java script apneaap bnti hai niche wali command se
+{ tsc app
+node app}
+java script m data type nhi btate hai, type script m data type jaruri hai 
+{ typescript: 
+let a:number 
+a=10
+console.log(a)
+output:10}
+{ javacript: 
+var a=10
+console.log(a)
+output:10}
+
+coding (app.component.js(app ke andr) m hi hogi)
