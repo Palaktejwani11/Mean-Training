@@ -7,6 +7,9 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  a="Acropolis"
+ xyz(n:any)
+ {
+  alert(JSON.stringify(n));
+ }
 
 }
