@@ -1,2 +1,6 @@
-<br> <input [(ngModel)]="a"><br>
-{{a}}
+<br><br><br>
+<form #f1="ngForm" (ngSubmit)="xyz(f1.value)">
+    User Id <input name="userid" ngModel><br>
+    password <input name="password" ngModel><br>
+    <button>Login</button>
+</form>
