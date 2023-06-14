@@ -1,1 +1,6 @@
 
+generate myservice:
+ng new myapp(nye folder m)
+cd myappng serve
+ng g myservive(to generate service)
+changes krenge( app.component.ts me,myservice.service.ts me, app.component.html m,app.module.ts m)
