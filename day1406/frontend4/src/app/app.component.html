@@ -1,0 +1,7 @@
+<input type="button" value="show"(click)="getData()">
+<div *ngFor="let user of data">
+    ID : {{user._id}}<br>
+    password : {{user.password}}<br>
+    Name : {{user.name}}<br>
+    Role : {{user.role}}<br>
+</div>
