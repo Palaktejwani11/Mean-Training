@@ -1,1 +1,11 @@
+1.to install react run command(
+    npx create-react-app nameofproject)
+    cd myapp
+    npm start 
+    http://localhost:3000
 
+2.component
+ a. functional component
+ b. Class component
+
+3. npm i react-router-dom
