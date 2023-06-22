@@ -1,0 +1,49 @@
+html ke sare code return ke andr honge
+js k code return k upar
+
+[
+    
+import {useState} from "react";
+export default function App() {
+    const [a,setA]=useState(false);
+    function xyz(){setA(!a);}
+ return (
+  <>
+  <button onClick={xyz}> click</button> <br />
+  {a? "Palak":"Mita"}
+  </>
+ );
+}
+
+]
+
+
+[
+    
+export default function App() {
+  //var m=["FR","UA","CT","KN","YE","OS","UH"];
+ var a=[
+  {_id:"1",password:"p1",name:"a",role:"1"},
+  {_id:"2",password:"p2",name:"b",role:"2"},
+  {_id:"3",password:"p3",name:"d",role:"5"},
+  {_id:"4",password:"p4",name:"e",role:"1"},
+
+ ];
+
+  var b=a.map((x)=>{return(
+  <tr><td>{x._id}</td>
+  <td>{x.password}</td>
+  <td>{x.name}</td>
+  <td>{x.role}</td>
+  </tr>)})
+ 
+ return (
+  <>
+<table border="1"><tr><th>ID</th><th>Password</th><th>Name</th><th>Role</th></tr>
+  {b}
+</table>
+  </>
+ );
+}
+
+]
